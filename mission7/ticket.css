@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+  
+body {
+    background-color: #3d18de;
+    color: aliceblue;
+}
+
+small {
+    color: whitesmoke;
+}
+
+form {
+    margin: 10%;
+    margin-top: 2em;
+    background-color: #2747f5;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+
+form div {
+    margin: 2em;
+}
+
+form .button {
+    margin: 2em;
+    background-color: #1877de;
+}
+  
+.titlename {
+    text-align: center;
+    font-size: 8em;
+}
+
+.menu {
+    border: 1px solid #8d14fa;
+    background-color: #2747f5 ;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.menu li {
+    list-style-type: none;
+    flex-basis: 120px;
+    text-align: center;
+}
+  
+.menu a {
+    border: 1px solid #3d18de;
+    display: block;
+    padding: 0.5rem;
+    background-color: #2747f5;
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 3px solid aliceblue;
+}
+  
+.menu a.active {
+    color: #00b5a9;
+    background-color: #e3fffd;
+    border-color: #00b5a9;
+}
+  
+.menu a:hover {
+    color: aliceblue;
+    background-color: #8d14fa;
+    border-color: aliceblue;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    visibility: hidden;
+}

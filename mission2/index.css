@@ -1,0 +1,96 @@
+img {
+  width: 20em;
+  height: 15em;
+  margin-left: 5em;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+body {
+  background-color: #3d18de;
+  color: aliceblue;
+}
+
+.menu {
+  border: 1px solid #8d14fa;
+  background-color: #2747f5 ;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  list-style-type: none;
+  flex-basis: 120px;
+  text-align: center;
+}
+
+.menu a {
+  border: 1px solid #3d18de;
+  display: block;
+  padding: 0.5rem;
+  background-color: #2747f5;
+  text-decoration: none;
+  color: aliceblue;
+  border-bottom: 3px solid aliceblue;
+}
+
+.menu a.active {
+  color: #00b5a9;
+  background-color: #e3fffd;
+  border-color: #00b5a9;
+}
+
+.menu a:hover {
+  color: aliceblue;
+  background-color: #8d14fa;
+  border-color: aliceblue;
+}
+
+.media {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  border: solid 0.5em white;
+  margin: 2em 20%;
+  border-radius: 2em;
+  background-color: #2747f5;
+}
+
+.media.flipped {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.media .image img {
+  border-radius: 20%;
+  margin: 0 2em;
+}
+
+.media .content {
+  flex: 1;
+  padding: 10px;
+}
+
+.media.flipped .content {
+  flex: 1;
+  padding: 10px;
+  text-align: 8em;
+}
+
+.zooname {
+  text-align: center;
+  font-size: 8em;
+}

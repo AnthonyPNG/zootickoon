@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+  
+body {
+    background-color: #3d18de;
+    color: aliceblue;
+}
+
+.titlename {
+    text-align: center;
+    font-size: 8em;
+}
+
+form {
+    margin: 10%;
+    margin-top: 2em;
+    background-color: #2747f5;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+
+form div {
+    margin: 2em;
+}
+
+form .button {
+    margin: 2em;
+    background-color: #1877de;
+}
+
+.table {
+    background-color: #2747f5;
+    color: aliceblue;
+}
+
+.table-stripped {
+    background-color: #1877de;
+    color: aliceblue;
+}
+
+center {
+    text-align: center;
+}
